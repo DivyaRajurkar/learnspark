@@ -76,13 +76,18 @@ Nested Field (name):
 **1.name:** struct (nullable = true): The name field is a struct (i.e., a nested structure) and can contain null values.
 Under name, there are three nested fields:
 **I)firstname:** string (nullable = true): The first name, which is a string and can be null.
+
 **II)middlename:** string (nullable = true): The middle name, which is a string and can be null.
+
 **III)lastname:** string (nullable = true): The last name, which is a string and can be null.
 Other Fields:
 
 **2.dob:** string (nullable = true): The date of birth, which is a string and can be null.
+
 **3.gender:** string (nullable = true): The gender, which is a string and can be null.
+
 **4.salary:** integer (nullable = true): The salary, which is an integer and can be null.
+
 **output:-**
 +--------------------+----------+------+------+
 |                name|       dob|gender|salary|
