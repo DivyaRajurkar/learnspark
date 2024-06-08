@@ -60,6 +60,7 @@ df.show()
       nested fields. Below is the output you can expect when running the printSchema() method on the DataFrame with the given schema:
 ** Expected Schema Output**:
 root
+
  |-- name: struct (nullable = true)
  |    |-- firstname: string (nullable = true)
  |    |-- middlename: string (nullable = true)
@@ -67,6 +68,7 @@ root
  |-- dob: string (nullable = true)
  |-- gender: string (nullable = true)
  |-- salary: integer (nullable = true)
+ 
 ** Explanation **
 Root Level:
 
@@ -99,3 +101,4 @@ Other Fields:
 |{Maria, Anne, Jo...|1967-12-01|     F|  4000|
 | {Jen, Mary, Brown}|1980-02-17|     F|    -1|
 +--------------------+----------+------+------+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e23
