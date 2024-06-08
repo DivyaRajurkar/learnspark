@@ -89,6 +89,7 @@ Other Fields:
 **4.salary:** integer (nullable = true): The salary, which is an integer and can be null.
 
 **output:-**
+
 +--------------------+----------+------+------+
 |                name|       dob|gender|salary|
 +--------------------+----------+------+------+
